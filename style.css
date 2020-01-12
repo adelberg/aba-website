@@ -1,0 +1,25 @@
+body{
+		background-color: #0C304F;
+}
+h2,p {
+	text-align: center;
+	color: #dcb7b7;
+}
+.images{
+	 /*background-image:url("photo-1577692919501-283bf1f9a010.jpg") ;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+img{
+	margin:10px;
+	width:450px;
+	height:300px;
+	transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
